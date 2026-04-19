@@ -1,7 +1,7 @@
 import os
 from fastapi import FastAPI, BackgroundTasks
 from pydantic import BaseModel
-from sqlalchemy import create_all, Column, Integer, Float, DateTime, create_engine, desc, func
+from sqlalchemy import Column, Integer, Float, DateTime, create_engine, desc, func
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
